@@ -1,0 +1,67 @@
+*
+{
+    margin:0;
+    padding:0;
+     box-sizing: border-box;
+} 
+body
+{
+    height:100%;
+    width:100%;
+    background-image: url(image6.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box
+{
+    max-width: 400px;
+    margin: 100px auto;
+    border: 2px solid black;
+    padding: 20px;
+    background-color:gold;
+    border-radius: 5px;
+}
+
+.pass-box
+{
+    position: relative;
+}
+
+.fa
+{
+    position: absolute;
+    right: 10px;
+    margin-top:-28px;
+    cursor: pointer;
+}
+
+#pswd_info
+{
+    position:absolute;
+    width: 400px;
+   padding: 15px;
+    background:white;
+    font-size: .875em;
+    border-radius: 8px;
+  
+    margin: 100px -20px ;
+    
+
+}
+#pswd_info ul li i{
+    margin-top: auto;
+}
+
+
+.invalid
+{
+    line-height:28px;
+    color: orangered;
+
+}
+.valid
+{
+    line-height: 24px;
+    color: green;
+}
